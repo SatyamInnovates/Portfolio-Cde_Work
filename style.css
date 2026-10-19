@@ -1,15 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Black+Ops+One&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
 
 
-/* pallete black white green */
+
 body {
     margin: 1;
     min-height: 100vh;
     background-color: #000000;
     background-image: radial-gradient(
-        ellipse at top,
+        ellipse 50000px 2000px at top,
         rgba(157, 212, 94, 0.678),
-        transparent 30%
+        transparent 10%
     );
     color: #ffffff;
     font-family:Black Ops One;
@@ -75,6 +75,7 @@ body {
     font-size: 20px;
 }
 .image1{
+    margin-right: 10px;
     width: 450px;
     height: auto;
     max-width: 100%;
@@ -115,4 +116,24 @@ body {
 
 .highlight{
     color: greenyellow;
+}
+
+.Projects{
+    max-width: 1000px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.project-group{
+    margin-bottom: 50px;
+}
+
+.project-group h2{
+    color: greenyellow;
+}
+
+#avilorp{
+    margin:20px;
+    font-size: 20px;
+    max-width: 100%;
 }
