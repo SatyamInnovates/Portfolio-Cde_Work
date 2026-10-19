@@ -132,8 +132,12 @@ body {
     color: greenyellow;
 }
 
-#avilorp{
-    
+.image2{
+    width: 450px;
+    margin-left: 20px;
+    border-radius: 20px;
+}
+#avilorp{    
     margin:20px;
     font-size: 20px;
     max-width: 100%;
