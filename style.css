@@ -1,16 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Black+Ops+One&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
 
+
+/* pallete black white green */
 body {
     margin: 1;
     min-height: 100vh;
     background-color: #000000;
     background-image: radial-gradient(
         ellipse at top,
-        rgba(106, 235, 31, 0.678),
+        rgba(157, 212, 94, 0.678),
         transparent 30%
     );
     color: #ffffff;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family:Black Ops One;
 }
 
 #heading1{
@@ -35,7 +37,7 @@ body {
     margin-bottom: 50px;
 }
 #building{
-    color: chocolate;
+    color: rgb(21, 207, 98);
     font-size: 25px;
 }
 
@@ -67,4 +69,50 @@ body {
 
 .Links a:hover {
     color: #6aeb1f;
+}
+
+.intro{
+    font-size: 20px;
+}
+.image1{
+    width: 450px;
+    height: auto;
+    max-width: 100%;
+    object-fit: cover;
+    padding: 0px;
+}
+
+.profile{
+    display: flex;
+    align-items: center;
+    gap: 200px;
+    white-space: nowrap;
+}
+
+
+.intro{
+    margin: 10px;
+    padding: 10px;
+    max-width: 900px;
+}
+#goal{
+    color: greenyellow;
+}
+
+.skills{
+    max-width: 100px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.skill-group{
+    margin-bottom: 50px;
+}
+
+.skill-group h3{
+    color: greenyellow;
+}
+
+.highlight{
+    color: greenyellow;
 }
