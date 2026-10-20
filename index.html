@@ -47,16 +47,21 @@
         
         
     </section>
-
+    
     <section id="project" class="Projects">
         <h2>Projects <span class="highlight">:</span></h2>
+        <div class="filter-bar">
+        <button class="filter-btn" onclick="filterprojects('all')">All</button>
+        <button class="filter-btn" onclick="filterprojects('web')">Web</button>
+        <button class="filter-btn" onclick="filterprojects('cli')">cli</button>
+        <button class="filter-btn" onclick="filterprojects('app')">app</button>
+        <div id="project-cards"></div>
+    </div>
 
         <div class="project-group">
             
             
         </div>
-
-            
 
     
     </section>
