@@ -1,0 +1,13 @@
+
+[{"topic":"Languages","sub_topic":["Python","JavaScript","HTML","CSS","SQL"]},
+{"topic":"AI/ML","sub_topic":["Machine learning","scikit learn","LLMs","RAG","AI APIs"]},
+{"topic":"Data","sub_topic":["NumPy","Pandas","Matplotlib"]},
+{"topic":"Backend / web","sub_topic":["FastAPI","Jinja2","JavaScript"]},
+{"topic":"Database","sub_topic":["Supabase","FAISS","ChromaDB"]}]
+
+
+
+
+
+
+
