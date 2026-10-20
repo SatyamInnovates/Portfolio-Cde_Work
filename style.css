@@ -173,6 +173,10 @@ body {
     color: greenyellow;
 }
 
+.project-group a{
+    margin: 10px;
+}
+
 .image2{
     width: 450px;
     margin-left: 20px;
@@ -195,4 +199,11 @@ body {
     width: 100%;
     max-width: 500px;
     margin: 30px auto;
+}
+
+#goal-circle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
 }

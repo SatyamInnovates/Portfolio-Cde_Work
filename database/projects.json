@@ -1,0 +1,20 @@
+[
+
+{"name":"Avilor","description":"Avilor takes a beginner's goal and generates a personalized, phase-by-phase coding roadmap — pointing them to the right resources at each step instead of leaving them lost in a sea of tutorials","Links":[{"label":"Github_link","link":"https://github.com/SatyamInnovates/Avilor"},{"label":"Live Demo","link":"https://avilor.onrender.com/"}]},
+
+{"name":"Funify","description":"Funify is a Python-based educational app built using kivyMD. it has a good chat system , stores login data ,stores chats nad had a system in which you can share a photo and it will provides mcq form question from it.","Links":[{"label":"Github_link","link":"https://github.com/SatyamInnovates/Funify"}]},
+
+{"name":"Drona","description":"Drona is a local learning and coding activity dashboard for Windows which auto pushes your codes to Github etc.","Links":[{"label":"Github_link","link":"https://github.com/SatyamInnovates/Drona"}]},
+
+
+{"name":"Jarvis","description":"jarvis is a python based voice assistant and a chatbot inspired by Iron man ai assistant. when you run this , it asks to choose mods like text nad voice. it uses asyncio so the code is optimized and it also keeps record of the chats.","Links":[{"label":"Github_link","link":"https://github.com/SatyamInnovates/jarvis-ai-assistant"}]},
+
+
+{"name":"Youtube-chatbot","description":"Paste your url and it will provide you whole summary and transcript you can use ai in it","Links":[{"label":"Github_link","link":"https://github.com/SatyamInnovates/Youtube-chatbot"},{"label":"Live Demo","link":"https://youtube-chatbot-gzjc8rfysguuscgx2csxkh.streamlit.app/"}]},
+
+{"name":"Vision-Ai","description":"an real time ai which can see live things and answer your question:Pure Vision AI, Real-time vision assistant - YOLOv8 object detection","Links":[{"label":"Github_link","link":"https://github.com/SatyamInnovates/Vision-Ai"}]},
+
+{"name":"MNIST-project","description":"An ai model which made using my ML Skills","Links":[{"label":"Github_link","link":"https://github.com/SatyamInnovates/MNIST-project"}]}
+
+]
+
