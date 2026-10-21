@@ -50,6 +50,7 @@ function render(list) {
         const card = document.createElement("div");
         card.classList.add("project-group");
         const name = document.createElement("h3");
+        name.style.color = 'greenyellow';
         const description = document.createElement("p");
         name.textContent = p.name;
         description.textContent = p.description;
