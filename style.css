@@ -89,6 +89,7 @@ body {
     text-align: left;
     margin: 10px;
 }
+
 .Links ul {
     display: flex;
     list-style: none;
@@ -244,3 +245,70 @@ body {
 #linkp{
     margin: 10px;
 }
+
+#hackaid{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: center;
+    margin: 20px;
+    padding:20px;
+    border: 2px solid greenyellow;
+    box-shadow: 0 0 40px greenyellow;
+}
+
+#satel{
+    margin: 20px;
+}
+@media (max-width:500px){
+    .profile{
+        flex-direction: column;
+        white-space: normal;
+        gap: 20px;
+    }
+
+    #skill-heading{
+      font-size: 50px;  
+    }
+
+
+    .skills{
+        font-size: 30px;
+    }
+
+    #project-heading{
+        font-size: 30px;
+    }
+    .image2{
+        width: 350px;
+    }
+    #project-ai{
+    color: greenyellow;
+    font-size: 90px;
+    text-shadow: 0 0 50px greenyellow;
+    }   
+
+    .library{
+        flex-direction: column;
+    }   
+
+
+    .Links {
+        padding: 10px;
+    }
+
+    .Links ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+}
+
+
+
+
+
+
+
+
+
+

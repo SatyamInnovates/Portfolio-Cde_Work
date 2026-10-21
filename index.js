@@ -1,3 +1,4 @@
+
 const project_container = document.getElementById("project-cards");
 const skills_container = document.getElementById("skills");
 let all_projects = [];
@@ -76,3 +77,17 @@ function filterprojects(tag) {
         render(all_projects.filter(p => p.tag === tag));
     }
 }
+
+async function loadHours(){
+    try{
+        const response = await fetch("https://hackatime.hackclub.com/api/v1/users/Code_Arjun/stats");
+        const data = await response.json();
+        hour = document.getElementById('total_hours')
+        hour.textContent = `last 2 weeks Coding Hours: ${data.data.human_readable_total}`;
+        
+    }catch(err){
+        console.log(err)
+    }
+}
+
+loadHours()
