@@ -1,4 +1,3 @@
-
 const project_container = document.getElementById("project-cards");
 const skills_container = document.getElementById("skills");
 const buttons = document.querySelectorAll('.filter-btn');

@@ -289,8 +289,16 @@ body {
     color:black
 }
 
+#skill-h{
+    color: #22be2a;
+    text-shadow:
+        0 7px 5px rgba(17, 207, 81, 0.25),
+        0 0 12px rgba(37, 228, 12, 0.35),
+        0 0 30px rgba(106, 112, 70, 0.15);    
+}
 
-@media (max-width:500px){
+
+@media (max-width:600px){
     .profile{
         flex-direction: column;
         white-space: normal;
@@ -300,7 +308,6 @@ body {
     #skill-heading{
       font-size: 50px;  
     }
-
 
     .skills{
         font-size: 30px;
@@ -312,6 +319,7 @@ body {
     .image2{
         width: 350px;
     }
+
     #project-ai{
     color: greenyellow;
     font-size: 90px;
