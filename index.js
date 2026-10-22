@@ -3,7 +3,7 @@ const skills_container = document.getElementById("skills");
 const buttons = document.querySelectorAll('.filter-btn');
 let all_projects = [];
 
-fetch("../database/projects.json")
+fetch("database/projects.json")
     .then(response => {
         if (!response.ok) throw new Error("could not fetch projects");
         return response.json();
@@ -17,7 +17,7 @@ fetch("../database/projects.json")
         project_container.textContent = `Could not fetch projects: ${error}`;
     });
 
-fetch("../database/skills.json")
+fetch("database/skills.json")
     .then(response => {
         if (!response.ok) throw new Error("could not fetch skills, some error while fetching database");
         return response.json();
