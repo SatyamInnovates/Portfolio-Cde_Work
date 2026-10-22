@@ -260,6 +260,36 @@ body {
 #satel{
     margin: 20px;
 }
+
+
+.filter-bar{
+    display: flex;
+    gap: 10px;
+    margin: 30px;
+    flex-wrap: wrap;
+}
+
+.filter-btn{
+    padding: 8px 20px;
+    background:transparent;
+    color: greenyellow;
+    border: 2px solid greenyellow;
+    border-radius: 999px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+.filter-btn:hover{
+    background-color: rgb(82, 128, 13);
+    transform: translateY(-2px);
+}
+.filter-btn.active  {
+    background:greenyellow;
+    color:black
+}
+
+
 @media (max-width:500px){
     .profile{
         flex-direction: column;

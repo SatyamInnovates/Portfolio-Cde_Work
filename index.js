@@ -1,6 +1,7 @@
 
 const project_container = document.getElementById("project-cards");
 const skills_container = document.getElementById("skills");
+const buttons = document.querySelectorAll('.filter-btn');
 let all_projects = [];
 
 fetch("../database/projects.json")
@@ -91,3 +92,13 @@ async function loadHours(){
 }
 
 loadHours()
+
+
+buttons.forEach(btn => {
+    btn.addEventListener('click',()=>{
+        buttons.forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        filterprojects(btn.dataset.filter)
+    })
+})
+
