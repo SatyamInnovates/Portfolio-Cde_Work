@@ -11,7 +11,7 @@ Built with clean, modern web technologies:
 ---
 ## 📂 Project Structure
 To keep the codebase clean, modular, and easy to maintain, the project is organized into dedicated directories:
-```text
+
 
 Portfolio-Cde_Work/
 │
