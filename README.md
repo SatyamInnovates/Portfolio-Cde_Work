@@ -21,10 +21,12 @@ Portfolio-Cde_Work/
 ├── images/              # Assets, project screenshots, and icons
 ├── database/            # Data storage files feeding into index.js
 └── index.html           # Main entry point of the website
-:warning: Important Note: Please do not change any code inside index.js to ensure the portfolio data integrates and renders correctly. If you'd like to tweak, purify, or customize it further, feel free to fork or check out the original repository: GitHub - SatyamInnovates/Portfolio-Cde_Work.
+
+:warning: Important Note: Please do not change any code inside index.js to ensure the portfolio data integrates and renders correctly. If you'd like to tweak, purify, or customize it further, feel free to fork or check out the original repository: GitHub - "SatyamInnovates/Portfolio-Cde_Work".
 
 :computer: How to Run Locally
 If you want to check out or tinker with the portfolio on your local machine, follow these simple steps:
+
 Method 1: Clone via Git (Recommended)
 Open your terminal and run the following commands:
 # Clone the repository
@@ -32,6 +34,7 @@ git clone [https://github.com/SatyamInnovates/Portfolio-Cde_Work.git](https://gi
 # Navigate into the project directory
 cd Portfolio-Cde_Work
 # Open index.html in your default browser (or use a live server extension)
+
 
 Method 2: Download ZIP
 
