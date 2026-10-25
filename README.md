@@ -8,9 +8,9 @@ Wait a little if the website doesn't load directly.
 
 
 Tech Stack:
--JavaScript
--HTML
--CSS
+1. JavaScript
+2. HTML
+3. CSS
 
 
 Also i try to make it structure so i made different folders for database and images seperately.
