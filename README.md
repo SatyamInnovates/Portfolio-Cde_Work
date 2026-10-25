@@ -4,8 +4,9 @@ Demo Link:
 URL:(https://satyaminnovates.github.io/Portfolio-Cde_Work/)
 <img width="1905" height="952" alt="image" src="https://github.com/user-attachments/assets/5e141c15-cc81-407c-ae2e-3add7055364b" />
 
-Wait a little if the website doesn't load directly.
+There wasn't any website which i made for myself so i though of making this PortFolio website without ai.
 
+Wait a little if the website doesn't load directly.
 
 Tech Stack:
 1. JavaScript
